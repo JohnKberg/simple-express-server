@@ -21,9 +21,9 @@ app.use(bodyParser.urlencoded({ extended: false }));    //Parser for requests wi
 app.use("/", router);
 
 //---------------------------------------
-// Route handler - HTTP POST to /Send_UTF8
+// Route handler - HTTP POST to /Send
 //---------------------------------------
-router.post('/Send_UTF8', (request, response) => {
+router.post('/Send', (request, response) => {
     
     // console.log(request.headers);
     console.log('.....Request Content-type.......')
